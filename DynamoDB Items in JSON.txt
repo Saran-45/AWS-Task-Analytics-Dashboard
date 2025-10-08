@@ -1,0 +1,107 @@
+//JSON code for 10 tasks to be entered into DynamoDB table
+//Create a new item, then switch to JSON view, and paste the code in (one item at a time)
+
+{
+  "TaskID": { "S": "1" },
+  "Category": { "S": "Work" },
+  "TaskName": { "S": "Craft the world's most persuasive client proposal" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-01-15T17:00:00Z" },
+  "CreatedDate": { "S": "2025-01-10T10:00:00Z" }
+}
+
+
+
+{
+  "TaskID": { "S": "2" },
+  "Category": { "S": "Personal" },
+  "TaskName": { "S": "Master the art of doing nothing for 10 minutes (meditation)" },
+  "CompletionStatus": { "BOOL": false },
+  "CreatedDate": { "S": "2025-01-18T08:00:00Z" }
+}
+
+
+
+{
+  "TaskID": { "S": "3" },
+  "Category": { "S": "Family" },
+  "TaskName": { "S": "Host a legendary birthday bash for Mom" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-01-12T15:00:00Z" },
+  "CreatedDate": { "S": "2025-01-05T10:00:00Z" }
+}
+
+
+
+{
+  "TaskID": { "S": "4" },
+  "Category": { "S": "Health" },
+  "TaskName": { "S": "Survive a 5K run without questioning all life choices" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-01-16T11:00:00Z" },
+  "CreatedDate": { "S": "2025-01-01T09:00:00Z" }
+}
+
+
+
+{
+  "TaskID": { "S": "5" },
+  "Category": { "S": "Work" },
+  "TaskName": { "S": "Submit the quarterly financial report" },
+  "CompletionStatus": { "BOOL": false },
+  "CreatedDate": { "S": "2025-01-19T13:00:00Z" }
+}
+
+
+
+{
+  "TaskID": { "S": "6" },
+  "Category": { "S": "Education" },
+  "TaskName": { "S": "Complete AWS Certified Cloud Practitioner course" },
+  "CompletionStatus": { "BOOL": false },
+  "CreatedDate": { "S": "2025-01-20T14:00:00Z" }
+}
+
+
+
+{
+  "TaskID": { "S": "7" },
+  "Category": { "S": "Home" },
+  "TaskName": { "S": "Deep clean the kitchen (because AI can’t do that yet)" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-01-21T10:30:00Z" },
+  "CreatedDate": { "S": "2025-01-18T09:00:00Z" }
+}
+
+
+
+{
+  "TaskID": { "S": "8" },
+  "Category": { "S": "Social" },
+  "TaskName": { "S": "Ping an old friend IRL" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-01-22T17:45:00Z" },
+  "CreatedDate": { "S": "2025-01-21T12:15:00Z" }
+}
+
+
+
+{
+  "TaskID": { "S": "9" },
+  "Category": { "S": "Health" },
+  "TaskName": { "S": "Annual physical exam" },
+  "CompletionStatus": { "BOOL": false },
+  "CreatedDate": { "S": "2025-01-23T07:30:00Z" }
+}
+
+
+
+{
+  "TaskID": { "S": "10" },
+  "Category": { "S": "Work" },
+  "TaskName": { "S": "Write a client proposal that doesn’t sound like it was AI-generated" },
+  "CompletionStatus": { "BOOL": true },
+  "CompletionDate": { "S": "2025-01-24T15:00:00Z" },
+  "CreatedDate": { "S": "2025-01-20T10:00:00Z" }
+}
+

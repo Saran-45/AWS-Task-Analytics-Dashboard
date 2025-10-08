@@ -1,0 +1,34 @@
+//Policy to invoke the Lambda function
+//Be sure to update your region and AWS account number
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "lambda:InvokeFunction",
+            "Resource": "arn:aws:lambda:<region>:<aws_account_number>:function:athenafederatedcatalog_mydynamodb"
+        }
+    ]
+}
+
+
+//Policy to access the S3 spill location bucket
+//Be sure to update the name of your bucket
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::<bucket_name>",
+                "arn:aws:s3:::<bucket_name>/*"
+            ]
+        }
+    ]
+}
